@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.neccton",
+    "module": "lighthouse-sdk",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lighthouse-sdk-0.1.0.aar",
+          "url": "lighthouse-sdk-0.1.0.aar",
+          "size": 77321,
+          "sha512": "fd4eea58e3e0045041d83ccbe079d6c323f4604fce762e279611795b17d50fc81f8e99f897a6dc718e374825b02f90cf8fbdaecc6f14ec45a459066c370a13ae",
+          "sha256": "b11b3fc2ccdcb6493cb6c73c4db2a272afb601d53a01b815ec79fa69594e9a67",
+          "sha1": "30d4bcf54e10898f835d18eb9e691f7ec6feaf33",
+          "md5": "5a4a87c21c88f47eedb6411370ed48f6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "2.3.12"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.12"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lighthouse-sdk-0.1.0.aar",
+          "url": "lighthouse-sdk-0.1.0.aar",
+          "size": 77321,
+          "sha512": "fd4eea58e3e0045041d83ccbe079d6c323f4604fce762e279611795b17d50fc81f8e99f897a6dc718e374825b02f90cf8fbdaecc6f14ec45a459066c370a13ae",
+          "sha256": "b11b3fc2ccdcb6493cb6c73c4db2a272afb601d53a01b815ec79fa69594e9a67",
+          "sha1": "30d4bcf54e10898f835d18eb9e691f7ec6feaf33",
+          "md5": "5a4a87c21c88f47eedb6411370ed48f6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lighthouse-sdk-0.1.0-sources.jar",
+          "url": "lighthouse-sdk-0.1.0-sources.jar",
+          "size": 4918,
+          "sha512": "295f2327480e113af5f7da4bf55f88d815049c010fedd2f0910599a8ac717c254af91fb394ecbae614be21854f4011104099f11081b3abe179da341646c899fd",
+          "sha256": "e950c7f74fb321b5aae2ad5d46930302bd129fcda2ae312e8c61181cb9382b25",
+          "sha1": "7fcbe398c085ebf03995dbda66be996c728ff955",
+          "md5": "3f44b230fd2b2751f83c08e8f565f9bf"
+        }
+      ]
+    }
+  ]
+}
