@@ -16,6 +16,6 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation("ai.neccton:lighthouse-sdk:0.2.0")
+    implementation("ai.neccton:lighthouse-sdk:0.3.0")
 }
 ```
